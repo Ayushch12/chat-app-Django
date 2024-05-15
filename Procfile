@@ -1,4 +1,5 @@
-web: gunicorn backend.wsgi:application --log-file -
+web: gunicorn djangochat.wsgi --log-file -
+
 
 
 
