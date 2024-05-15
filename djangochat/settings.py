@@ -43,6 +43,11 @@ INSTALLED_APPS = [
 import dj_database_url
 import django_heroku
 
+# settings.py
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
 ALLOWED_HOSTS = ['djangofirstproject-784c27cb604a.herokuapp.com', 'localhost', '127.0.0.1']
 
 MIDDLEWARE = [
